@@ -16,7 +16,7 @@ def compute_detector_grade(time_sec, growth_rate, power_w, output_impurity, net_
         return f"Error: {e}"
 
 # Web app layout
-st.set_page_config(page_title="Detector Grade Predictor", layout="centered")
+st.set_page_config(page_title="Detector Grade Predictor(Test/Beta)", layout="centered")
 st.title("🔬 Detector Grade Predictor")
 st.markdown("This tool predicts the **Detector Grade (%)** crystal growth inputs using a symbolic model trained on raw experimental data. This is a simple test model")
 
